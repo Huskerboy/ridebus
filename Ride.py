@@ -33,7 +33,7 @@ def first_step():
         print("Congrats, that is correct.")
         second_step(first_card)
     elif guess_color not in valid_colors:
-        print("that is not an option, you DUMBASS!")
+        print("that is not an option.")
         first_step()
     else:
         print("that is incorrect, drink and we will restart.")
@@ -153,9 +153,9 @@ def final_step(first_card, second_card, third_card):
         final_step(first_card, second_card, third_card)
 
     if guess_suit == fourth_card['suit']['name']:
-        print("Well Son of a Bitch, you actually got it. Congrats, you are now off the bus.")
+        print("Well Son of a Gun, you actually got it. Congrats, you are now off the bus.")
     else:
-        print("WRONG, Drink Bitch!!! HAHAHA!!!")
+        print("Wow, thats rough! Gotta restart.")
         print_card('fourth', fourth_card)
         first_step()
 
