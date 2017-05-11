@@ -1,4 +1,4 @@
-# ridebus
+# Ride the Bus
 Ride the bus is an interactive card guessing game developed using python that runs on the command prompt.
 There are four steps to this game, you must guess the first one right in order to move on to the next step and you must restart after every incorrect guess.
 * Guess the color of the first card
